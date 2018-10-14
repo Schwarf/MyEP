@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Misc">
+      <UniqueIdentifier>{855cc9c9-1079-432d-b207-130810b8bdd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Misc">
+      <UniqueIdentifier>{435e8d72-324b-41db-97e5-bfabfdf34976}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ForEulerProblems">
+      <UniqueIdentifier>{9d26e994-2c0d-4a8d-bb7e-bbba6f17a075}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ForEulerProblems">
+      <UniqueIdentifier>{818e6379-7a40-4e45-ac1e-700a9241c907}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Solutions">
+      <UniqueIdentifier>{28e206e2-3de2-43ae-ba9d-afd59ecab36d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Solutions">
+      <UniqueIdentifier>{1833fdee-315f-4ee6-9386-d14491c6d67c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Solutions\Solution1To25">
+      <UniqueIdentifier>{949add62-006c-4d42-aef1-9431db010330}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Solutions\Solution1To25">
+      <UniqueIdentifier>{9fee79d8-27a3-4c6c-a386-95314ee295bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Solutions\Solution26To50">
+      <UniqueIdentifier>{1ef0093f-355f-4aab-88b7-fda8287da78e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FileReader.h">
+      <Filter>Header Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="IFileReader.h">
+      <Filter>Header Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="IStringConverter.h">
+      <Filter>Header Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="IStringSplit.h">
+      <Filter>Header Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="StringSplit.h">
+      <Filter>Header Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="StringToIntConverter.h">
+      <Filter>Header Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="ForProblem18.h">
+      <Filter>Header Files\ForEulerProblems</Filter>
+    </ClInclude>
+    <ClInclude Include="ForProblem67.h">
+      <Filter>Header Files\ForEulerProblems</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution67.h">
+      <Filter>Header Files\Solutions</Filter>
+    </ClInclude>
+    <ClInclude Include="ForProblem11.h">
+      <Filter>Header Files\ForEulerProblems</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfirmedSolutions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BigInteger.h">
+      <Filter>Header Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="ForProblem13.h">
+      <Filter>Header Files\ForEulerProblems</Filter>
+    </ClInclude>
+    <ClInclude Include="ForProblem22.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ComputePrimeNumbers.h">
+      <Filter>Header Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="ComputeDivisors.h">
+      <Filter>Header Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="AllSolutions1To25.h">
+      <Filter>Header Files\Solutions\Solution1To25</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution11.h">
+      <Filter>Header Files\Solutions\Solution1To25</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution12.h">
+      <Filter>Header Files\Solutions\Solution1To25</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution13.h">
+      <Filter>Header Files\Solutions\Solution1To25</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution14.h">
+      <Filter>Header Files\Solutions\Solution1To25</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution16.h">
+      <Filter>Header Files\Solutions\Solution1To25</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution18.h">
+      <Filter>Header Files\Solutions\Solution1To25</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution20.h">
+      <Filter>Header Files\Solutions\Solution1To25</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution23.h">
+      <Filter>Header Files\Solutions\Solution1To25</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution25.h">
+      <Filter>Header Files\Solutions\Solution1To25</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution27.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectEuler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileReader.cpp">
+      <Filter>Source Files\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="StringToIntConverter.cpp">
+      <Filter>Source Files\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="StringSplit.cpp">
+      <Filter>Source Files\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="ForProblem18.cpp">
+      <Filter>Source Files\ForEulerProblems</Filter>
+    </ClCompile>
+    <ClCompile Include="ForProblem67.cpp">
+      <Filter>Source Files\ForEulerProblems</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution67.cpp">
+      <Filter>Source Files\Solutions</Filter>
+    </ClCompile>
+    <ClCompile Include="ForProblem11.cpp">
+      <Filter>Source Files\ForEulerProblems</Filter>
+    </ClCompile>
+    <ClCompile Include="BigInteger.cpp">
+      <Filter>Source Files\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="ForProblem13.cpp">
+      <Filter>Source Files\ForEulerProblems</Filter>
+    </ClCompile>
+    <ClCompile Include="ForProblem22.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ComputePrimeNumbers.cpp">
+      <Filter>Source Files\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="ComputeDivisors.cpp">
+      <Filter>Source Files\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution11.cpp">
+      <Filter>Source Files\Solutions\Solution1To25</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution12.cpp">
+      <Filter>Source Files\Solutions\Solution1To25</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution13.cpp">
+      <Filter>Source Files\Solutions\Solution1To25</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution14.cpp">
+      <Filter>Source Files\Solutions\Solution1To25</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution16.cpp">
+      <Filter>Source Files\Solutions\Solution1To25</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution18.cpp">
+      <Filter>Source Files\Solutions\Solution1To25</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution20.cpp">
+      <Filter>Source Files\Solutions\Solution1To25</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution23.cpp">
+      <Filter>Source Files\Solutions\Solution1To25</Filter>
+    </ClCompile>
+    <ClCompile Include="AllSolutions1To25.cpp">
+      <Filter>Source Files\Solutions\Solution1To25</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution25.cpp">
+      <Filter>Source Files\Solutions\Solution1To25</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution27.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
