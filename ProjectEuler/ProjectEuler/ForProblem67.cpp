@@ -5,7 +5,7 @@
 std::vector<std::vector<int>> ForProblem67::Data()
 {
 
-	auto fileName = "D:\\Data\\EulerProjectData\\MaximumPathSum_Problem67\\triangle.txt";
+	auto fileName = "..\\..\\EulerProjectData\\MaximumPathSum_Problem67\\triangle.txt";
 	FileReader FileReader(fileName);
 	std::vector<std::string> linesInFile = FileReader.getData();
 	std::string delim = " ";

@@ -5,7 +5,7 @@
 std::vector<std::vector<int>> ForProblem11::Data()
 {
 
-	auto fileName = "D:\\Data\\EulerProjectData\\LargestProductInGrid_Problem11\\grid.txt";
+	auto fileName = "..\\..\\EulerProjectData\\LargestProductInGrid_Problem11\\grid.txt";
 	FileReader FileReader(fileName);
 	std::vector<std::string> linesInFile = FileReader.getData();
 	std::string delim = " ";

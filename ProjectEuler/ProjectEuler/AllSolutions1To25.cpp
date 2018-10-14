@@ -19,9 +19,9 @@ void Solutions1To25()
 	std::cout << "Solution14" << std::endl;
 //	compare = Solution14::result() / Solution14Result;
 //	std::cout << compare << ", "<< Solution14Result << std::endl;
-	std::cout << "Solution14 optimized" << std::endl;
-	compare = Solution14::optimizedResult() / Solution14Result;
-	std::cout << compare << ", " << Solution14Result << std::endl;
+//	std::cout << "Solution14 optimized" << std::endl;
+//	compare = Solution14::optimizedResult() / Solution14Result;
+//	std::cout << compare << ", " << Solution14Result << std::endl;
 
 
 	auto solution16 = Solution16::result() / Solution16Result;
